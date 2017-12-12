@@ -1,0 +1,11 @@
+# Byond Running/Build Artifacts
+
+*.int
+*.rsc
+*.dmb
+*.lk
+
+# Lands of Legend specific artifacts
+
+*.sav
+logs/
