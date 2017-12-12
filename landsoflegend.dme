@@ -6,29 +6,41 @@
 // END_INTERNALS
 // BEGIN_FILE_DIR
 #define FILE_DIR .
-#define FILE_DIR "Sounds"
+#define FILE_DIR "extra"
+#define FILE_DIR "src"
+#define FILE_DIR "src/audio"
+#define FILE_DIR "src/audio/combat"
+#define FILE_DIR "src/audio/environment"
+#define FILE_DIR "src/audio/music"
+#define FILE_DIR "src/sprites"
+#define FILE_DIR "src/sprites/construct"
+#define FILE_DIR "src/sprites/effects"
+#define FILE_DIR "src/sprites/interface"
+#define FILE_DIR "src/sprites/items"
+#define FILE_DIR "src/sprites/mobs"
+#define FILE_DIR "src/sprites/world"
 // END_FILE_DIR
 
 // BEGIN_PREFERENCES
 // END_PREFERENCES
 
 // BEGIN_INCLUDE
-#include "AntiSpam.dm"
-#include "Combat.dm"
-#include "config.dm"
-#include "Crafting.dm"
-#include "DoList.dm"
-#include "Login.dm"
-#include "Logs.dm"
-#include "MobProcs.dm"
-#include "Mobs.dm"
-#include "Objs.dm"
-#include "Text On Screen.dm"
-#include "Turfs.dm"
-#include "txtprocs.dm"
-#include "Vars.dm"
-#include "World.dm"
-#include "OldSmallWorld.dmm"
-#include "Macros.dms"
+#include "src\macros.dms"
+#include "src\code\AntiSpam.dm"
+#include "src\code\Combat.dm"
+#include "src\code\config.dm"
+#include "src\code\Crafting.dm"
+#include "src\code\DoList.dm"
+#include "src\code\Login.dm"
+#include "src\code\Logs.dm"
+#include "src\code\MobProcs.dm"
+#include "src\code\Mobs.dm"
+#include "src\code\Objs.dm"
+#include "src\code\Text On Screen.dm"
+#include "src\code\Turfs.dm"
+#include "src\code\txtprocs.dm"
+#include "src\code\Vars.dm"
+#include "src\code\World.dm"
+#include "src\maps\OldSmallWorld.dmm"
 // END_INCLUDE
 
